@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"josefin Sans",sans-serif;
+    font-weight: 300;
+
+}
+html{
+        font-size: 62.5%;
+}
+
+.main-div{
+    display: grid;
+    place-content: center;    
+    width: 100vw;
+    min-height: 100vh;
+    background-color:hsl(206, 73%, 83%);
+}
+.inner-div{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0,1rem ,1rem,-0.7 rem rgb(0,0,0,0.4);
+    
+}
+.inner-div h2{
+    font-size: 3.5rem;
+    margin:1rem 0 4rem 0;
+    font-weight: 400;
+
+}
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style-type: none;
+}
+input{
+    cursor: pointer;
+}
+
+#submit ,
+.btn{
+    padding: 1rem 3rem;
+    outline:none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    background-color: #2F91F2;
+    color: #fff;
+    margin-top: 1rem;
+}
+#submit:hover{
+    background-color: #2E2EEA;
+}
+#showScore{
+    background-color: antiquewhite;
+    margin-top: 2rem;
+    padding: 3rem 4rem;
+    box-shadow: 0,1rem ,1rem,-0.7 rem rgb(0,0,0,0.4);
+    border-radius: 1rem;
+}
+.scoreArea{
+    display: none;
+}
